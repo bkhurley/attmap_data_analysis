@@ -2,8 +2,6 @@
 #
 # 19 Nov 2016 - BKH
 
-import sys
-sys.path.insert(0, '~/svn/private/python/utils/') # add dir to path
 from plot_wvfm import waveplot
 
 # define waveplot params

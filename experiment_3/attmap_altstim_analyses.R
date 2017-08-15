@@ -11,11 +11,11 @@ analyze_expt = 2 # change to index which experiment we are analyzing from list a
 curr_exp_name = exp_names[analyze_expt]
 
 # load custom functions
-source('~/svn/private/R/attmap/attmap_altstim/attmap_altstim_plots.R')
-source('~/svn/private/R/attmap/attmap_altstim/attmap_altstim_LMM.R')
-source('~/svn/private/R/attmap/attmap_altstim/compare_model_fit.R')
-source('~/svn/private/R/attmap/attmap_altstim/attmap_altstim_analyze_combined_data.R')
-source('~/svn/private/R/attmap/attmap_altstim/attmap_thresh_compare.R')
+source('/experiment_3/attmap_altstim_plots.R')
+source('/experiment_3/attmap_altstim_LMM.R')
+source('/experiment_3/compare_model_fit.R')
+source('/experiment_3/attmap_altstim_analyze_combined_data.R')
+source('/experiment_3/attmap_thresh_compare.R')
 
 # store the current directory
 start.dir <- getwd()
