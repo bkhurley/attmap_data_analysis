@@ -6,12 +6,6 @@ Assessing the p.d.f spread associated with threshold convergence will allow us t
 
 import pandas as pd
 import numpy as np
-import matplotlib
-import matplotlib.pyplot as plt
-plt.style.use('ggplot')
-
-import sys
-sys.path.append('/Users/bkhurley/svn/private/python/projects/attmap')
 from zest import initialize_zest, converge_zest
 
 
