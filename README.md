@@ -1,7 +1,7 @@
 # Attmap Data Analysis
 Data analysis code from a portion of my dissertation. **Attmap** is short for *attention-mapping*.
 
-The data were from three psychophysics experiments that measured listeners' intensity deviance detection thresholds for various time points in musical sequences. The goal was to psychophysically "map" listeners' temporal attention using a Bayesian threshold algorithm called *Zippy Estimation by Sequential Testing (ZEST)* and compare this map to predictions of a computational model of time-varying attention. See [this python code](/threshold_convergence_analysis/zest.py) to see how the algorithm works.
+The data were from three psychophysics experiments that measured listeners' intensity deviance detection thresholds for various time points in musical sequences. The goal was to psychophysically "map" listeners' temporal attention using a Bayesian threshold algorithm called *Zippy Estimation by Sequential Testing (ZEST)* and compare this map to predictions of a computational model of time-varying attention.
 
 As a whole, the code in this repo cleans, statistically models (primarily via mixed-effects models), and plots the data.
 
