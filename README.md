@@ -1,7 +1,7 @@
 # Attmap Data Analysis
 Data analysis code from a portion of my dissertation. **Attmap** is short for *attention-mapping*.
 
-The data were from three psychophysics experiments that measured listeners' intensity deviance detection thresholds for various time points in musical sequences. The goal was to psychophysically "map" listeners' temporal attention using a Bayesian threshold algorithm called *Zippy Estimation by Sequential Testing (ZEST)* and compare this map to predictions of a computational model of time-varying attention.
+The data were from three psychophysics experiments that measured listeners' intensity deviance detection thresholds for various time points in musical sequences. The goal was to psychophysically "map" listeners' temporal attention using a Bayesian threshold algorithm called *Zippy Estimation by Sequential Testing (ZEST)* and compare this map to predictions of a computational model of time-varying attention. The model uses banks of damped linear oscillators (reson filters) to profile an acoustic signal's rhythmic structure. I generated metrics from this model to predict moment-to-moment attention fluctuations while participants' listened to auditory rhythms, and I tested those predictions with the deviance detection expriments described above.
 
 As a whole, the code in this repo cleans, statistically models (primarily via mixed-effects models), and plots the data.
 
