@@ -1,7 +1,8 @@
  """
  zest.py
  
- perform calculations for the ZEST algorithm based on (a) specified params and (b) incoming responses (0 = miss, 1 = hit)
+ perform calculations for the ZEST algorithm based on (a) specified params and 
+ (b) incoming responses (0 = miss, 1 = hit)
 
 params is a dict and should contain the following keys:
 	A
@@ -17,7 +18,11 @@ params is a dict and should contain the following keys:
 
 Parameter names correspond to Equations 2, 3, and 4 in the following paper:
 
-Marvit P., Florentine, M., & Buus Soren. (2003) A comparison of psychophysical procedures for level-discrimination thresholds. Journal of the Acoustical Society of America. 113 (6), 3348-3361.
+Marvit P., Florentine, M., & Buus Soren. (2003) A comparison of psychophysical 
+procedures for level-discrimination thresholds. Journal of the Acoustical 
+Society of America. 113 (6), 3348-3361.
+
+Written by Brian K. Hurley
 """
 
 import numpy as np

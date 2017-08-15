@@ -1,7 +1,17 @@
 """
-Use subject data from attmap_v1p2 experiment to calculate standard deviation of threshold probability density functions (p.d.f.) for each trial within each subject. 
-Function output will is a table containing threshold and SD values for each trial within each subject.
-Assessing the p.d.f spread associated with threshold convergence will allow us to determine an ideal p.d.f standard deviation in which we can consider a threshold to be converged (i.e. a dynamic termination criterion rather than an arbitrary number-of-trials criterion) 
+Use subject data from attmap_v1p2 experiment to calculate standard deviation 
+of threshold probability density functions (p.d.f.) for each trial within each 
+subject. 
+
+Function output is a table containing threshold and SD values for each trial 
+within each subject.
+
+Assessing the p.d.f spread associated with threshold convergence will allow us 
+to determine an ideal p.d.f standard deviation in which we can consider a 
+threshold to be converged (i.e. a dynamic termination criterion rather than an 
+arbitrary number-of-trials criterion) 
+
+written by Brian K. Hurley
 """
 
 import pandas as pd
